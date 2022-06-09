@@ -1,10 +1,11 @@
 import React from "react";
 import project from "../assets/chair.png";
 import habib from "../assets/habib.jpg";
+import { AiFillGithub } from "react-icons/ai";
 
 const Projects = () => {
   return (
-    <div className="pt-20 md:px-36 bg-[#0A192F]">
+    <div className=" md:px-36 bg-[#0A192F]">
       <div className="md:flex items-center gap-12 mb-16">
         <h1 className="text-[#CCD6F6] text-3xl font-bold">
           Some Things I’ve Built
@@ -37,6 +38,11 @@ const Projects = () => {
             <span>React</span>
             <span>Vs Code</span>
             <span>Node js</span>
+          </div>
+          <div className="md:text-right">
+            <span className="text-white text-2xl cursor-pointer p-2 rounded-full">
+              <AiFillGithub />
+            </span>
           </div>
         </div>
       </div>
