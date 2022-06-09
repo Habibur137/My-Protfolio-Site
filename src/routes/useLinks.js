@@ -15,7 +15,7 @@ const useLinks = () => {
     },
     {
       id: 4,
-      link: "exerience",
+      link: "experience",
     },
     {
       id: 5,

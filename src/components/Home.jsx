@@ -80,7 +80,7 @@ const Home = () => {
         </div>
 
         <div
-          data-aos="fade-down"
+          data-aos="flip-left"
           data-aos-offset="200"
           data-aos-delay="50"
           data-aos-duration="1000"
