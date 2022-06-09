@@ -42,7 +42,9 @@ const Navbar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 hover:text-[#5BE7C9] duration-200"
             >
-              {link}
+              <Link to={link} smooth duration={500}>
+                {link}
+              </Link>
             </li>
           ))}
         </ul>
