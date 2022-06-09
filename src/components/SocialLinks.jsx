@@ -48,7 +48,7 @@ const SocialLinks = () => {
       id: 5,
       child: (
         <>
-          Linked In <BsFilePersonFill size={20} />
+          Resume <BsFilePersonFill size={20} />
         </>
       ),
       href: "/resume.pdf",
@@ -57,7 +57,7 @@ const SocialLinks = () => {
     },
   ];
   return (
-    <div className="md:flex lg:flex flex-col top-[30%] left-0 fixed hidden">
+    <div className="md:flex lg:flex flex-col top-[34%] left-0 fixed hidden">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li

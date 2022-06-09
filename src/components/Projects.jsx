@@ -7,7 +7,7 @@ import { GiEarthAmerica } from "react-icons/gi";
 
 const Projects = () => {
   return (
-    <div className=" md:px-36 bg-[#0A192F]">
+    <div name="project" className=" md:px-36 md:pb-20 bg-[#0A192F]">
       <div className="md:flex items-center gap-12 mb-16">
         <h1 className="text-[#CCD6F6] text-3xl font-bold">
           Some Things I’ve Built

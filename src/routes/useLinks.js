@@ -2,23 +2,20 @@ const useLinks = () => {
   const links = [
     {
       id: 1,
-      link: "Home",
+      link: "home",
     },
+
     {
       id: 2,
-      link: "About",
+      link: "protfolio",
     },
     {
       id: 3,
-      link: "Protfolio",
+      link: "project",
     },
     {
       id: 4,
-      link: "Projects",
-    },
-    {
-      id: 5,
-      link: "Contact",
+      link: "contact",
     },
   ];
   return [links];
