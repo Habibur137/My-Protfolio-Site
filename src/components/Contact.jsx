@@ -13,9 +13,15 @@ const Contact = () => {
       )
       .then((res) => console.log(res))
       .catch((err) => console.log(err));
+    e.target.reset();
   };
   return (
     <div
+      data-aos="zoom-in-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
       name="contact"
       className=" w-full h-screen bg-[#0A192F] p-4 text-white"
     >

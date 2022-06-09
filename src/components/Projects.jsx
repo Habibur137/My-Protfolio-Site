@@ -16,6 +16,11 @@ const Projects = () => {
       </div>
       <div className="md:flex items-center">
         <a
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
           className="md:w-[55%] h-[340px] relative group"
           href="https://carpento-demo.web.app/"
           target="_blank"
@@ -26,7 +31,14 @@ const Projects = () => {
             <div className="w-full h-full  bg-[rgba(19,48,64,0.8)] absolute top-0 left-0  group-hover:hidden duration-300"></div>
           </div>
         </a>
-        <div className="md:text-right md:w-[45%]">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="md:text-right md:w-[45%]"
+        >
           <p className="text-[#5BE7C9] font-medium">Featured Project</p>
           <h3 className="text-[#CCD6F6] font-semibold text-2xl mt-3 mb-6">
             Menufacture Website
@@ -78,7 +90,14 @@ const Projects = () => {
       </div>
       {/* two =========================================================================================== */}
       <div className="flex flex-col-reverse md:flex md:items-center md:flex-row  my-16 md:my-40">
-        <div className="text-left md:w-[45%]">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="text-left md:w-[45%]"
+        >
           <p className="text-[#5BE7C9] font-medium">Featured Project</p>
           <h3 className="text-[#CCD6F6] font-semibold text-2xl mt-3 mb-6">
             Warehouse Managment System
@@ -129,6 +148,11 @@ const Projects = () => {
           </div>
         </div>
         <a
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
           className="md:w-[55%] h-[340px] relative group"
           href="https://sunrise-motors.web.app/"
           target="_blank"
@@ -144,6 +168,11 @@ const Projects = () => {
       {/* third ============================================================================================== */}
       <div className="md:flex items-center">
         <a
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
           className="md:w-[55%] h-[340px] relative group"
           href="https://travell-guide.web.app/"
           target="_blank"
@@ -154,7 +183,14 @@ const Projects = () => {
             <div className="w-full h-full  bg-[rgba(22,53,69,0.75)] absolute top-0 left-0  group-hover:hidden duration-300"></div>
           </div>
         </a>
-        <div className="md:text-right md:w-[45%]">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="md:text-right md:w-[45%]"
+        >
           <p className="text-[#5BE7C9] font-medium">Featured Project</p>
           <h3 className="text-[#CCD6F6] font-semibold text-2xl mt-3 mb-6">
             Travel Guide Website
