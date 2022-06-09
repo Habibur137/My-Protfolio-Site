@@ -1,7 +1,9 @@
 import React from "react";
-import project from "../assets/chair.png";
-import habib from "../assets/habib.jpg";
+import project from "../assets/carpento-1.png";
+import sunrise from "../assets/sunrise-1.png";
+import travel from "../assets/travel-1.png";
 import { AiFillGithub } from "react-icons/ai";
+import { GiEarthAmerica } from "react-icons/gi";
 
 const Projects = () => {
   return (
@@ -15,7 +17,7 @@ const Projects = () => {
       <div className="md:flex items-center">
         <a
           className="md:w-[55%] h-[340px] relative group"
-          href="https://www.google.com"
+          href="https://carpento-demo.web.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -27,7 +29,7 @@ const Projects = () => {
         <div className="md:text-right md:w-[45%]">
           <p className="text-[#5BE7C9] font-medium">Featured Project</p>
           <h3 className="text-[#CCD6F6] font-semibold text-2xl mt-3 mb-6">
-            Halcyon Theme
+            Menufacture Website
           </h3>
           <div className="bg-[#112240] text-[#919DBB] p-6 font-medium mb-6 md:relative md:w-[550px] md:right-16 rounded">
             A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
@@ -35,23 +37,50 @@ const Projects = () => {
             Atom Package Manager, and npm.
           </div>
           <div className="text-[#515F78]">
-            <span>React</span>
-            <span>Vs Code</span>
-            <span>Node js</span>
+            <span className="mr-2">Tailwind CSS</span>
+            <span className="mr-2">React JS</span>
+            <span className="mr-2">Express JS</span>
+            <span className="mr-2">Mongo DB</span>
+            <span className="">React Query</span>
           </div>
-          <div className="md:text-right">
-            <span className="text-white text-2xl cursor-pointer p-2 rounded-full">
-              <AiFillGithub />
-            </span>
+          <div className="flex justify-end gap-x-4 mt-3">
+            <a
+              href="https://github.com/Habibur137/menufacture-website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="text-white text-xl " title="Clint Site Repo:">
+                <AiFillGithub />
+              </span>
+            </a>
+            <a
+              href="https://github.com/Habibur137/menufacture-website-server"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="text-white text-xl " title="Server Site Repo:">
+                <AiFillGithub />
+              </span>
+            </a>
+            <a
+              href="https://carpento-demo.web.app/"
+              target="_blank"
+              rel="noreferrer"
+              title="Live Site"
+            >
+              <span className="text-white text-xl ">
+                <GiEarthAmerica />
+              </span>
+            </a>
           </div>
         </div>
       </div>
       {/* two =========================================================================================== */}
-      <div className="flex flex-col-reverse md:flex md:items-center md:flex-row  my-40">
+      <div className="flex flex-col-reverse md:flex md:items-center md:flex-row  my-16 md:my-40">
         <div className="text-left md:w-[45%]">
           <p className="text-[#5BE7C9] font-medium">Featured Project</p>
           <h3 className="text-[#CCD6F6] font-semibold text-2xl mt-3 mb-6">
-            Halcyon Theme
+            Warehouse Managment System
           </h3>
           <div className="bg-[#112240] text-[#919DBB] p-6 font-medium mb-6 md:w-[550px] relative z-20 rounded">
             A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
@@ -59,19 +88,52 @@ const Projects = () => {
             Atom Package Manager, and npm.
           </div>
           <div className="text-[#515F78]">
-            <span>React</span>
-            <span>Vs Code</span>
-            <span>Node js</span>
+            <span className="">Bootstrap</span>
+            <span className="ml-2">React JS</span>
+            <span className="ml-2">Express Js</span>
+            <span className="ml-2">Mongo DB</span>
+            <span className="ml-2">Axios</span>
+            <span>Firebase</span>
+          </div>
+          <div className="flex  gap-x-4 mt-3">
+            <a
+              href="https://github.com/Habibur137/warehouse-website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="text-white text-xl " title="Clint Site Repo:">
+                <AiFillGithub />
+              </span>
+            </a>
+            <a
+              href="https://github.com/Habibur137/warehouse-website-server"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="text-white text-xl " title="Server Site Repo:">
+                <AiFillGithub />
+              </span>
+            </a>
+            <a
+              href="https://sunrise-motors.web.app/"
+              target="_blank"
+              rel="noreferrer"
+              title="Live Site"
+            >
+              <span className="text-white text-xl ">
+                <GiEarthAmerica />
+              </span>
+            </a>
           </div>
         </div>
         <a
           className="md:w-[55%] h-[340px] relative group"
-          href="https://www.google.com"
+          href="https://sunrise-motors.web.app/"
           target="_blank"
           rel="noreferrer"
         >
           <div className="w-full h-full">
-            <img className="w-full h-full" src={habib} alt="" />
+            <img className="w-full h-full" src={sunrise} alt="" />
             <div className="w-full h-full  bg-[rgba(100,255,219,0.27)] absolute top-0 left-0  group-hover:hidden duration-300"></div>
           </div>
         </a>
@@ -81,19 +143,19 @@ const Projects = () => {
       <div className="md:flex items-center">
         <a
           className="md:w-[55%] h-[340px] relative group"
-          href="https://www.google.com"
+          href="https://travell-guide.web.app/"
           target="_blank"
           rel="noreferrer"
         >
           <div className="w-full h-full">
-            <img className="w-full h-full" src={project} alt="" />
+            <img className="w-full h-full" src={travel} alt="" />
             <div className="w-full h-full  bg-[rgba(22,53,69,0.75)] absolute top-0 left-0  group-hover:hidden duration-300"></div>
           </div>
         </a>
         <div className="md:text-right md:w-[45%]">
           <p className="text-[#5BE7C9] font-medium">Featured Project</p>
           <h3 className="text-[#CCD6F6] font-semibold text-2xl mt-3 mb-6">
-            Halcyon Theme
+            Travel Guide Website
           </h3>
           <div className="bg-[#112240] text-[#919DBB] p-6 font-medium mb-6 relative md:w-[550px] md:right-16 rounded">
             A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
@@ -101,9 +163,33 @@ const Projects = () => {
             Atom Package Manager, and npm.
           </div>
           <div className="text-[#515F78]">
-            <span>React</span>
-            <span>Vs Code</span>
-            <span>Node js</span>
+            <span className="">React JS</span>
+            <span className="mr-2">Express Js</span>
+            <span className="mr-2">Mongo DB</span>
+            <span className="mr-2">Axios</span>
+            <span>Firebase</span>
+          </div>
+          <div className="flex justify-end gap-x-4 mt-3">
+            <a
+              href="https://github.com/Habibur137/travel-guide"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="text-white text-xl " title="Clint Site Repo:">
+                <AiFillGithub />
+              </span>
+            </a>
+
+            <a
+              href="https://travell-guide.web.app/"
+              target="_blank"
+              rel="noreferrer"
+              title="Live Site"
+            >
+              <span className="text-white text-xl ">
+                <GiEarthAmerica />
+              </span>
+            </a>
           </div>
         </div>
       </div>

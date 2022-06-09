@@ -13,7 +13,6 @@ const Home = () => {
             I'm Habibur Rahman
           </h2>
           <h2 className="text-xl sm:text-5xl font-bold text-[#CCD6F6]">
-            I'm a
             <span>
               <Typical
                 loop={Infinity}
@@ -31,11 +30,11 @@ const Home = () => {
             </span>
           </h2>
 
-          <p className="text-gray-500 py-4 max-w-md">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            nesciunt doloremque placeat nemo ratione iure necessitatibus
-            aliquid, esse nihil, praesentium excepturi corporis alias possimus,
-            porro itaque tenetur omnis voluptate! Excepturi totam dignissimos{" "}
+          <p className="text-gray-500 py-5 max-w-md">
+            Full stack web developer with background knowledge of MERN stacks
+            with redux, along with a knack of building applications with utmost
+            efficiency. Strong professional with a BSC willing to be an asset
+            for an organization.{" "}
           </p>
           <div className="md:flex  gap-6">
             <button className="group text-white w-fit px-6 py-3 my-2 flex  items-center rounded-md bg-[#5BE7C9] cursor-pointer">
