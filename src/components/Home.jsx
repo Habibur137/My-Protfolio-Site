@@ -43,12 +43,16 @@ const Home = () => {
                 <AiOutlineCaretRight />
               </span>
             </button>
-            <button className="group w-fit px-6 py-3 my-2 flex items-center rounded-md text-[#5BE7C9] border-2 cursor-pointer">
+            <a
+              href="/resume.pdf"
+              download={true}
+              className="group w-fit px-6 py-3 my-2 flex items-center rounded-md text-[#5BE7C9] border-2 cursor-pointer"
+            >
               Resume{" "}
               <span className="group-hover:rotate-90 duration-300 ml-2">
                 <BsCloudDownloadFill />
               </span>
-            </button>
+            </a>
           </div>
         </div>
 

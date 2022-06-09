@@ -32,9 +32,10 @@ const Projects = () => {
             Menufacture Website
           </h3>
           <div className="bg-[#112240] text-[#919DBB] p-6 font-medium mb-6 md:relative md:w-[550px] md:right-16 rounded">
-            A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
-            and more. Available on Visual Studio Marketplace, Package Control,
-            Atom Package Manager, and npm.
+            Delivered a Restful web-based API using Express JS and Mongo DB that
+            allows users to register, login, and perform CRUD operations. 
+            Implemented JSON web Token authentication for security and added
+            restricted middleware to prevent access to unauthorized endpoints.
           </div>
           <div className="text-[#515F78]">
             <span className="mr-2">Tailwind CSS</span>
@@ -83,9 +84,10 @@ const Projects = () => {
             Warehouse Managment System
           </h3>
           <div className="bg-[#112240] text-[#919DBB] p-6 font-medium mb-6 md:w-[550px] relative z-20 rounded">
-            A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
-            and more. Available on Visual Studio Marketplace, Package Control,
-            Atom Package Manager, and npm.
+            Developed Back-End by using Express and Mongo DB, Used firebase for
+            registration and login.  Implemented JSON web Token authentication
+            for security and added restricted middleware to prevent access to
+            unauthorized endpoints.
           </div>
           <div className="text-[#515F78]">
             <span className="">Bootstrap</span>
@@ -158,9 +160,11 @@ const Projects = () => {
             Travel Guide Website
           </h3>
           <div className="bg-[#112240] text-[#919DBB] p-6 font-medium mb-6 relative md:w-[550px] md:right-16 rounded">
-            A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
-            and more. Available on Visual Studio Marketplace, Package Control,
-            Atom Package Manager, and npm.
+            Built, coded, and designed a front-end React app that provides
+            tourist support. A user can book a date or cancel it. 
+            React-Firebase-Hooks used for authentication.  Structured the site
+            using React functional components and also Used Axios to GET data
+            from third-party API endpoints
           </div>
           <div className="text-[#515F78]">
             <span className="">React JS</span>
