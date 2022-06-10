@@ -1,3 +1,4 @@
+import BackgroundMotion from "./components/BackgroundMotion";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
@@ -14,6 +15,7 @@ function App() {
       <Experience />
       <Contact />
       <SocialLinks />
+      <BackgroundMotion />
     </div>
   );
 }

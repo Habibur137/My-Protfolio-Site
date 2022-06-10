@@ -6,9 +6,9 @@ import { BsCloudDownloadFill } from "react-icons/bs";
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full bg-[#0A192F] py-24">
+    <div name="home" className="h-screen w-full  py-24">
       <div className="max-w-screen-lg mx-auto flex flex-col md:gap-12   items-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full box-border w-[55%]">
+        <div className="bg-[#0A192F] flex flex-col justify-center h-full box-border w-[55%]">
           <h2
             data-aos="fade-down-right"
             data-aos-offset="200"

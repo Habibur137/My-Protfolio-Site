@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFilePersonFill } from "react-icons/bs";
+import ScrollToTop from "react-scroll-to-top";
 
 const SocialLinks = () => {
   const links = [
@@ -58,6 +59,19 @@ const SocialLinks = () => {
   ];
   return (
     <div className="md:flex lg:flex flex-col top-[34%] left-0 fixed hidden">
+      <ScrollToTop
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          backgroundColor: "#5BE7C9",
+        }}
+        smooth
+        top="1000"
+        color="white"
+        width="20"
+        height="20"
+      />
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
