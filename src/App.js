@@ -2,6 +2,7 @@ import BackgroundMotion from "./components/BackgroundMotion";
 import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -18,6 +19,7 @@ function App() {
       <Protfolio />
       <Blogs />
       <Contact />
+      <Footer />
       <SocialLinks />
       <BackgroundMotion />
     </div>

@@ -21,7 +21,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-[#ccd6f6] hover:scale-105 hover:text-[#5BE7C9] duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={1000}>
               {link}
             </Link>
           </li>

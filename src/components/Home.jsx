@@ -3,6 +3,7 @@ import habib from "../assets/habib.bg.png";
 import Typical from "react-typical";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import { BsCloudDownloadFill } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -60,12 +61,17 @@ const Home = () => {
             data-aos-easing="ease-in-out"
             className="md:flex  gap-6"
           >
-            <button className="group text-white w-fit px-6 py-3 my-2 flex  items-center rounded-md bg-[#5BE7C9] cursor-pointer">
+            <Link
+              smooth
+              duration={1000}
+              to="protfolio"
+              className="group text-white w-fit px-6 py-3 my-2 flex  items-center rounded-md bg-[#5BE7C9] cursor-pointer"
+            >
               Protfolio{" "}
               <span className="group-hover:rotate-90 duration-300 ml-2">
                 <AiOutlineCaretRight />
               </span>
-            </button>
+            </Link>
             <a
               href="/resume.pdf"
               download={true}

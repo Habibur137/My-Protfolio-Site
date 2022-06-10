@@ -29,8 +29,9 @@ const Contact = () => {
         className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold">
             Contact
+            <div className="  border-b-4 border-cyan-500 h-1 w-32"></div>
           </p>
           <p className="py-6">Submit The Form Below To Get In Touch With Me.</p>
         </div>
@@ -51,7 +52,7 @@ const Contact = () => {
             <textarea
               name="message"
               id=""
-              rows="10"
+              rows="5"
               placeholder="Message"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none "
             ></textarea>
