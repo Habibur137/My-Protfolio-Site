@@ -77,13 +77,13 @@ const Experience = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               key={id}
-              className={
-                "shadow-md hover:scale-105 duration-300 py-2 rounded-lg" +
-                " " +
-                style
-              }
+              className={`bg-[#112240] shadow-md  group py-2 rounded-lg ${style}`}
             >
-              <img className="w-20 mx-auto" src={src} alt="" />
+              <img
+                className="w-20 mx-auto group-hover:scale-125 duration-300"
+                src={src}
+                alt=""
+              />
               <p className="mt-4">{title}</p>
             </div>
           ))}

@@ -2,16 +2,15 @@ const useLinks = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "about",
     },
-
     {
       id: 2,
-      link: "protfolio",
+      link: "project",
     },
     {
       id: 3,
-      link: "project",
+      link: "protfolio",
     },
     {
       id: 4,
@@ -19,6 +18,10 @@ const useLinks = () => {
     },
     {
       id: 5,
+      link: "blog",
+    },
+    {
+      id: 6,
       link: "contact",
     },
   ];

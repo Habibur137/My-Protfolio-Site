@@ -58,6 +58,14 @@ const Projects = () => {
           </div>
           <div className="flex justify-end gap-x-4 mt-3">
             <a
+              href="https://carpento-demo.web.app/"
+              className="px-5 cursor-pointer capitalize font-medium text-[#ccd6f6] hover:scale-105 hover:text-[#5BE7C9] duration-200 border border-cyan-200 rounded-md"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Details
+            </a>
+            <a
               href="https://github.com/Habibur137/menufacture-website"
               target="_blank"
               rel="noreferrer"
@@ -145,6 +153,14 @@ const Projects = () => {
                 <GiEarthAmerica />
               </span>
             </a>
+            <a
+              href="https://sunrise-motors.web.app/"
+              className="px-5 cursor-pointer capitalize font-medium text-[#ccd6f6] hover:scale-105 hover:text-[#5BE7C9] duration-200 border border-cyan-200 rounded-md"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Details
+            </a>
           </div>
         </div>
         <a
@@ -210,6 +226,14 @@ const Projects = () => {
             <span>Firebase</span>
           </div>
           <div className="flex justify-end gap-x-4 mt-3">
+            <a
+              href="https://travell-guide.web.app/"
+              className="px-5 cursor-pointer capitalize font-medium text-[#ccd6f6] hover:scale-105 hover:text-[#5BE7C9] duration-200 border border-cyan-200 rounded-md"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Details
+            </a>
             <a
               href="https://github.com/Habibur137/travel-guide"
               target="_blank"

@@ -3,7 +3,7 @@ import useLinks from "../routes/useLinks";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-const Navbar = () => {
+const Navbar = ({ isOpen, setIsOpen }) => {
   const [nav, setNav] = useState(false);
   const [links] = useLinks();
   return (
